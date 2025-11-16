@@ -70,13 +70,13 @@ st.markdown("""
     /* Optional: make buttons glow */
     button[kind="primary"] {
         background-color: #00ffcc !important;
-        color: black !important;
+        color: #ffffff !important;
         border-radius: 8px;
         border: none;
         font-weight: bold;
     }
     ul, ol {
-        color: #FFFFFF !important;
+        color: #00ffcc !important;
         # font-family: 'Poppins', sans-serif;
     }
     li::marker {
@@ -115,6 +115,35 @@ h1, h3, [data-testid="stSelectbox"], p, warning {
 }
 </style>
 
+<style>
+code {
+    color: #00ffcc !important;
+    background-color: rgba(0, 255, 204, 0.15) !important;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+pre {
+    color: #00ffcc !important;
+    background-color: rgba(0, 255, 204, 0.12) !important;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #00ffcc;
+}
+
+table, th, td {
+    color: #00ffcc !important;
+    border: 1px solid #00ffcc !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #00ffcc !important;
+}
+
+p {
+    color: #00ffcc !important;
+}
+</style>
 
 """, unsafe_allow_html=True)
 
